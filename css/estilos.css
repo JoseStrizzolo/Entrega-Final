@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  background-image: url(https://us.123rf.com/450wm/eugenesergeev/eugenesergeev1402/eugenesergeev140200198/26146898-incoloro-pino-patr%C3%B3n-de-la-tabla-de-madera-textura-de-fondo.jpg);
+}
+
+.container-fluid {
+  font-family: 'Bebas Neue', cursive !important;
+}
+
+.header {
+  background: linear-gradient(to bottom, transparent, black 200%);
+  border-bottom: 1px solid black;
+}
+
+.header .navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.contenedor__contenido {
+  font-family: "Bebas Neue", cursive;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.contenedor__contenido .formasdepago {
+  padding-top: 90px;
+}
+
+.contenedor__contenido .texto_tarjetas {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contenedor__contenido .banner {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.contenedor__contenido .banner img {
+  border: 1px solid black;
+}
+
+.contenedor__contenido .texto_banner {
+  font-size: 1.8rem;
+}
+
+.contenedor__contenido .textos {
+  padding-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.8rem;
+}
+
+.contenedor__contenido .textos .alcanceNacional {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.contenedor__contenido .textos .calidad {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.contenedor__contenido .textos .seguridad {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.contenedor__contenido .fotos__productos img {
+  border: 2px solid black;
+  border-radius: 1%;
+}
+
+.contenedor__contenido .contacto {
+  padding-top: 50px;
+}
+
+.contenedor__footer {
+  background: linear-gradient(to bottom, transparent, black 200%);
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contenedor__footer .btn-outline-danger {
+  color: #ff007c !important;
+  border-color: #ff007c !important;
+}
+
+.contenedor__footer .copyright p {
+  margin-bottom: 0rem !important;
+}
+
+.contenedor__footer .copyright p::before {
+  content: '|';
+}
+
+.contenedor__footer .copyright p::after {
+  content: '|';
+}
+
+@media all and (max-width: 425px) {
+  .fotos__productos1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .formasdepago .row {
+    flex-direction: column;
+  }
+  .formasdepago .row p {
+    padding-top: 20px;
+  }
+}
